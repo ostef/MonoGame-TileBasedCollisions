@@ -7,7 +7,7 @@ public class Player
 {
 	private Level m_level;
 	private int m_width = Level.TILE_SIZE;
-	private int m_height = Level.TILE_SIZE + Level.TILE_SIZE / 2;
+	private int m_height = Level.TILE_SIZE;
 	private float m_moveSpeed = 2f;
 	private bool m_bGrounded;
 	private bool m_bStandingOnPlatform;
